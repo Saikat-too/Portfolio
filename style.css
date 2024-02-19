@@ -30,3 +30,20 @@ body{
   cursor: pointer;
   transition: 0.3s ease;
 }
+
+.logo:hover{
+  transform: scale(1.1);
+}
+.navbar a{
+  font-size: 1.Brem;
+  color: black;
+  margin-left: 3rem;
+  font-weight: 500;
+  transition: 0.4s ease;
+  border-bottom: 3px solid transparent;
+}
+.navbar a:hover,
+.navbar a.active{
+  color:#f5fffa;
+  border-bottom: 3px solid var(#f5fffa);
+}
