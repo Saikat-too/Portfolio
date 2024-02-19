@@ -102,3 +102,14 @@ span{
   font-weight: 700;
   line-height: 1;
 }
+.home-img{
+  border-radius: 50%;
+}
+
+.home-img img{
+  position: relative;
+  top: 2rem;
+  width: 16vw;
+  border-radius: 50%;
+  cursor: pointer;
+}
