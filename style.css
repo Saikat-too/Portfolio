@@ -113,3 +113,8 @@ span{
   border-radius: 50%;
   cursor: pointer;
 }
+.home-content p{
+  font-size: 1.8rem;
+  font-weight: 500;
+  width: 100px;
+}
