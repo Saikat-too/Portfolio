@@ -1,0 +1,10 @@
+/*styling */
+html{
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+body{
+  background: #f5fffa;
+  color: #000000;
+}
