@@ -47,3 +47,9 @@ body{
   color:#f5fffa;
   border-bottom: 3px solid var(#f5fffa);
 }
+
+#menu-icon{
+  font-size: 3.3rem;
+  color: #f5fffa;
+  display: none;
+}
