@@ -138,3 +138,35 @@ body {
 .project-text h1{
   color: #2794B3;
 }
+.contact { 
+  padding: 0 5rem; 
+} 
+
+.contact-content { 
+  display: flex; 
+  margin: 3rem 0; 
+  justify-content: space-between; 
+} 
+
+.contact-form-container { 
+  width: 50%; 
+} 
+
+.contact-form { 
+  display: flex; 
+  flex-direction: column; 
+} 
+
+.contact-form .form-controls { 
+  width: 80%; 
+  padding: 10px 0; 
+  margin: 1.67rem 0; 
+} 
+
+.contact-form .form-btn { 
+  width: 83%; 
+} 
+
+.contact-details { 
+  width: 50%; 
+} 
