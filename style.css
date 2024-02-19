@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); 
 
 body { 
-  background-color:#FFA500 ;
+  background-color:linear-gradient(90deg, #74D7BB, #53C8B6, #35A99C);  ;
   color: #FFFFFF;
   margin: 0; 
   padding: 0; 
@@ -105,10 +105,12 @@ body {
   padding: 5rem 5rem 5rem 1rem; 
 } 
 
-/* Portfolio section styles */
+
 .portfolio { 
-  margin: 4.8rem 0; 
-  padding: 0 5rem; 
+  position: relative;
+ 
+ 
+  background-image: linear-gradient(45deg, #e3e5f2, #2794B3);
 } 
 
 .port-card { 
@@ -119,12 +121,20 @@ body {
 
 
 
-/* Services section styles */
-.services { 
-  display: flex; 
+
+.projects { 
+  position: relative;
   align-items: center; 
-  justify-content: center; 
-  flex-direction: column; 
-  margin: 4.8rem 0; 
-  padding: 0 5rem; 
+  background-image: linear-gradient(45deg, #101854, #2794B3); 
+  justify-content: space-between; 
+  width: 100%;  
 } 
+.projects-text {
+  position: relative;
+ 
+  
+}
+
+.project-text h1{
+  color: #2794B3;
+}
