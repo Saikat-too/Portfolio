@@ -47,3 +47,9 @@ var _CONTENT = [
 	"ML and Data Science Enthusiast", 
 	"Also Interested in Game Development"
 ];
+
+var _PART = 0; // Current sentence being processed
+var _PART_INDEX = 0; // Character number of the current sentence being processed 
+var _INTERVAL_VAL; // Holds the handle returned from setInterval
+var _ELEMENT = document.querySelector("#text-name"); // Element that holds the text
+var _CURSOR = document.querySelector("#cursor"); // Cursor element 
