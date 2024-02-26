@@ -53,3 +53,23 @@ var _PART_INDEX = 0; // Character number of the current sentence being processed
 var _INTERVAL_VAL; // Holds the handle returned from setInterval
 var _ELEMENT = document.querySelector("#text-name"); // Element that holds the text
 var _CURSOR = document.querySelector("#cursor"); // Cursor element 
+
+
+// Implements typing effect
+function Type() { 
+	// Get substring with 1 characater added
+	var text =  _CONTENT[_PART].substring(0, _PART_INDEX + 1);
+	_ELEMENT.innerHTML = text;
+	_PART_INDEX++;
+
+	// If full sentence has been displayed then start to delete the sentence after some time
+	if(text === _CONTENT[_PART]) {
+		// Hide the cursor
+		_CURSOR.style.display = 'none';
+
+		clearInterval(_INTERVAL_VAL);
+		setTimeout(function() {
+			_INTERVAL_VAL = setInterval(Delete, 50);
+		}, 1000);
+	}
+}
