@@ -99,3 +99,6 @@ function Delete() {
 		}, 200);
 	}
 }
+
+// Start the typing effect on load
+_INTERVAL_VAL = setInterval(Type, 100);
