@@ -40,3 +40,10 @@ mainFn();
 window.addEventListener("resize", () => {
   window.location.reload();
 });
+
+// List of sentences
+var _CONTENT = [ 
+	"SOFTWARE ENGINEER", 
+	"ML and Data Science Enthusiast", 
+	"Also Interested in Game Development"
+];
